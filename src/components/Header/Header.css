@@ -1,0 +1,86 @@
+header {
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+.categories {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    gap: 5dvw;
+    padding-right: 2dvw;
+}
+
+.category {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.category:hover {
+    text-decoration: underline;
+}
+
+.user-controls {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.search-bar:focus {
+    border-color: #fff;
+}
+
+.bag-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #909090;
+    gap: 5px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.bag-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.user-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+}

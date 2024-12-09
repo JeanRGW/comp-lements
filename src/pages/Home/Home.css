@@ -1,0 +1,72 @@
+body {
+    min-height: 100%;
+}
+
+#homeCarousel {
+    min-height: 200px;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#homeCarousel img {
+    max-height: 40vh;
+    object-fit: contain;
+}
+
+.features-container {
+    min-height: 80px;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202020;
+    position: relative;
+}
+
+.features-item {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.features-item > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-item > div > h5 {
+    font-weight: 600;
+}
+
+.feature-icon {
+    height: 80%;
+}
+
+.destaques-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.destaques-container > h2 {
+    font-weight: 700;
+}
+
+.destaques {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    position: relative;
+}
