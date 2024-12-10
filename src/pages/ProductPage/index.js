@@ -2,15 +2,23 @@ import React from "react";
 import "./ProductPage.css";
 
 import FilledStar from "./../../components/Stars/FilledStar";
+import CaraForte from "./caraforte.webp";
+import Texugo1 from "./texugo1.jpg";
+import Texugo2 from "./texugo2.jpg";
+import Texugo3 from "./texugo3.webp";
 
 const ProductPage = () => (
     <div className="product-container">
         <div className="product-image">
-            <div className="image-placeholder"></div>
+            <img
+                className="principal-image"
+                src={CaraForte}
+                alt="Cara forte tomando whey de texugo"
+            ></img>
             <div className="thumbnail-container">
-                <div className="thumbnail"></div>
-                <div className="thumbnail"></div>
-                <div className="thumbnail"></div>
+                <img className="thumbnail" src={Texugo1} alt="Texugo"></img>
+                <img className="thumbnail" src={Texugo2} alt="Texugo"></img>
+                <img className="thumbnail" src={Texugo3} alt="Texugo"></img>
             </div>
         </div>
 
@@ -27,7 +35,7 @@ const ProductPage = () => (
                 deixar seu corpo tão forte quanto o animal mais destemido do
                 reino animal!
             </p>
-            <a href="#nutritional-info" className="nutritional-link">
+            <a href="/infoProduto" className="nutritional-link">
                 Informação Nutricional (ou talvez não)
             </a>
 

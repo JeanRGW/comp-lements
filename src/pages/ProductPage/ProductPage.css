@@ -7,6 +7,7 @@
     max-width: 80%;
     font-family: Arial, sans-serif;
     gap: 20px;
+    min-height: 90vh;
     max-height: 100vh;
 }
 
@@ -17,10 +18,8 @@
     align-items: center;
 }
 
-.image-placeholder {
+.principal-image {
     width: 100%;
-    padding-top: 100%;
-    background-color: #ccc;
     position: relative;
 }
 
@@ -44,9 +43,9 @@
 
 .thumbnail {
     width: 30%;
-    padding-top: 30%;
     background-color: #ddd;
     border: 1px solid #999;
+    object-fit: cover;
 }
 
 .product-info {

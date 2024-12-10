@@ -6,7 +6,7 @@ import "./Products.css";
 
 const products = [
     {
-        name: "Jão Biava Monohidratado",
+        name: "Produto 1",
         image: Biava1,
         starNumber: 5,
         price: 200,
