@@ -89,4 +89,6 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: flex-start;
+    width: 80%; /* Ensure the main content takes up space even if no products are shown */
+    min-height: 85vh; /* Force a minimum height for the main content */
 }
